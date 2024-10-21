@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Intro Vue",
+    "instructor": "Samuel Aditia",
+    "day": "Monday,Thursday,Saturday",
+    "imageUrl": "https://docs.vuejs.id/images/logo.png"
+  },
+  {
+    "title": "REST API",
+    "instructor": "Wendy",
+    "day": "Wednesday,Friday",
+    "imageUrl": "https://billwerk.io/wp-content/uploads/sites/2/2019/05/icons-restapi-350x350.png"
+  },
+  {
+    "title": "JQuery & Bootstrap",
+    "instructor": "Ayu Sudi",
+    "day": "Tuesday,Thursday",
+    "imageUrl": "https://www.kindpng.com/picc/m/445-4450455_css-logo-jquery-html-css-and-jquery-hd.png"
+  },
+  {
+    "title": "Vue Component",
+    "instructor": "Ganang Prakoso",
+    "day": "Monday,Wednesday,Friday",
+    "imageUrl": "https://docs.vuejs.id/images/logo.png"
+  },
+  {
+    "title": "Competitive Programming",
+    "instructor": "Hary Dhimas",
+    "day": "Tuesday,Friday,Saturday",
+    "imageUrl": "https://image.freepik.com/free-vector/brain-light-bulb-logo-vector-design_16734-24.jpg"
+  },
+  {
+    "title": "Javascript Next Level",
+    "instructor": "Ziady Mubaraq",
+    "day": "Monday,Thursday",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png"
+  },
+  {
+    "title": "SQL & No SQL Database",
+    "instructor": "Priambodo Kurniawan",
+    "day": "Tuesday,Wednesday,Saturday",
+    "imageUrl": "https://e7.pngegg.com/pngimages/395/768/png-clipart-database-administrator-computer-icons-database-symbol-angle-data.png"
+  },
+  {
+    "title": "Microservices",
+    "instructor": "Ajat Darojat",
+    "day": "Friday",
+    "imageUrl": "https://png.pngitem.com/pimgs/s/326-3264159_let-s-get-small-centro-social-y-recreativo.png"
+  }
+]

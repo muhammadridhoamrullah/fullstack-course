@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hacktiv Course</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+  </head>
+  <body>
+    <!-- Login -->
+    <div class="container-fluid d-flex justify-content-center align-items-center" style="background-color: #f59e0b; height: 100vh">
+      <div class="border w-75 p-5 my-5 bg-white rounded-3 shadow">
+        <div class="row">
+          <div class="col-6">
+            <img src="./assets/undraw_Online_learning_re_qw08.png" alt="login-img" width="100%" />
+          </div>
+          <div class="col-6 align-self-center">
+            <form>
+              <div class="mb-3">
+                <img src="./assets/hacktiv8-logo.png" alt="logo-h8" class="mb-4" width="200px" />
+                <h5 class="mb-4">Sign in to your account</h5>
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" autocomplete="off" />
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" />
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Login</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Login -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #f59e0b !important">
+      <div class="container">
+        <img src="./assets/hacktiv8-logo.png" alt="nav-logo" style="height: 40px" />
+        <div class="me-auto"></div>
+        <ul class="navbar-nav mx-2 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-white" aria-current="page" href="#">Add Course</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" aria-current="page" href="#">My Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" aria-current="page" href="#">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Course -->
+    <div class="container my-4">
+      <h3 class="text-center my-4">List Hacktiv8 Courses</h3>
+      <div class="row">
+        <!-- CourseCard -->
+        <div class="col-4 mb-3">
+          <div class="card p-3 rounded-3">
+            <div class="row align-items-center">
+              <div class="col-3">
+                <img src="https://mustopa28121992.github.io/projectt/img/fox--md5--a9e377ae39495073d0e66db163fc8d9b.png" alt="logo" class="mx-auto d-block" style="width: 70px" />
+              </div>
+              <div class="col-9">
+                <h5 class="mb-0">React Native Intro</h5>
+                <p class="mb-0">Instructor : <strong>Harry Dhimas</strong></p>
+                <p class="mb-0">Schedule :</p>
+                <p class="mb-0">
+                  <span class="badge rounded-pill bg-warning text-dark">Monday</span>
+                  <span class="badge rounded-pill bg-warning text-dark">Tuesday</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End CourseCard -->
+        <!-- CourseCard -->
+        <div class="col-4 mb-3">
+          <div class="card p-3 rounded-3">
+            <div class="row align-items-center">
+              <div class="col-3">
+                <img src="https://mustopa28121992.github.io/projectt/img/fox--md5--a9e377ae39495073d0e66db163fc8d9b.png" alt="logo" class="mx-auto d-block" style="width: 70px" />
+              </div>
+              <div class="col-9">
+                <h5 class="mb-0">Intro to Vue</h5>
+                <p class="mb-0">Instructor : <strong>Samuel Aditia</strong></p>
+                <p class="mb-0">Schedule :</p>
+                <p class="mb-0">
+                  <span class="badge rounded-pill bg-warning text-dark">Monday</span>
+                  <span class="badge rounded-pill bg-warning text-dark">Tuesday</span>
+                  <span class="badge rounded-pill bg-warning text-dark">Wednesday</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End CourseCard -->
+      </div>
+    </div>
+    <!-- End Course -->
+    <!-- Form Add Course -->
+    <div class="container">
+      <div class="border w-50 p-5 mx-auto">
+        <h2 class="text-center mb-3">Select Course</h2>
+        <form>
+          <div class="mb-3">
+            <label for="course" class="form-label">Course Name</label>
+            <select class="form-select" id="course">
+              <option value="0" hidden>Select Course</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <button class="btn btn-primary" type="submit">Enroll</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- End Form Add Course -->
+    <!-- My Course -->
+    <div class="container my-4">
+      <h3 class="text-center my-4">My Courses</h3>
+      <div class="row">
+        <!-- MyCourseCard -->
+        <div class="col-4 mb-3">
+          <div class="card p-3 rounded-3">
+            <div class="row align-items-center">
+              <div class="col-3">
+                <img src="https://mustopa28121992.github.io/projectt/img/fox--md5--a9e377ae39495073d0e66db163fc8d9b.png" alt="logo" class="mx-auto d-block" style="width: 70px" />
+              </div>
+              <div class="col-9">
+                <h5 class="mb-0">React Native Intro</h5>
+                <p class="mb-0">Instructor : <strong>Harry Dhimas</strong></p>
+                <p class="mb-2">Schedule :</p>
+                <p class="mb-3">
+                  <span class="badge rounded-pill bg-warning text-dark">Monday</span>
+                  <span class="badge rounded-pill bg-warning text-dark">Tuesday</span>
+                </p>
+                <button class="btn btn-sm btn-primary">Complete Course</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End MyCourseCard -->
+        <!-- MyCourseCard -->
+        <div class="col-4 mb-3">
+          <div class="card p-3 rounded-3">
+            <div class="row align-items-center">
+              <div class="col-3">
+                <img src="https://mustopa28121992.github.io/projectt/img/fox--md5--a9e377ae39495073d0e66db163fc8d9b.png" alt="logo" class="mx-auto d-block" style="width: 70px" />
+              </div>
+              <div class="col-9">
+                <h5 class="mb-0">Intro to Vue</h5>
+                <p class="mb-0">Instructor : <strong>Samuel Aditia</strong></p>
+                <p class="mb-2">Schedule :</p>
+                <p class="mb-3">
+                  <span class="badge rounded-pill bg-warning text-dark">Monday</span>
+                  <span class="badge rounded-pill bg-warning text-dark">Tuesday</span>
+                  <span class="badge rounded-pill bg-warning text-dark">Wednesday</span>
+                </p>
+                <div>
+                  <span>Status: </span><span class="text-success">Completed</span>  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End MyCourseCard -->
+      </div>
+    </div>
+    <!-- End My Course -->
+  </body>
+</html>
